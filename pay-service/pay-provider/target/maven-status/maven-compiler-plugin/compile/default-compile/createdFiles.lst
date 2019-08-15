@@ -1,2 +1,3 @@
-com\mxh\dubbo\App.class
+com\mxh\dubbo\AppConsumer.class
 com\mxh\dubbo\impl\PayServiceImpl.class
+com\mxh\dubbo\App.class

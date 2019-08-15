@@ -1,2 +1,3 @@
 com\mxh\dubbo\api\PayService.class
+com\mxh\dubbo\api\PayServiceMock.class
 com\mxh\dubbo\App.class

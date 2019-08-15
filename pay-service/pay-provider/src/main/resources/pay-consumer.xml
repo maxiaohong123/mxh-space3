@@ -16,6 +16,6 @@
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880" />
 
-    <dubbo:reference id="orderService" interface="com.mxh.dubbo.api.OrderService" url="dubbo://localhost:20880/com.mxh.dubbo.api.OrderService"></dubbo:reference>
+    <dubbo:reference id="orderService" check="true" interface="com.mxh.dubbo.api.OrderService" url="dubbo://localhost:20880/com.mxh.dubbo.api.OrderService"></dubbo:reference>
 
 </beans>
