@@ -8,12 +8,17 @@
        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
     <!-- 提供方应用信息，用于计算依赖关系 -->
-    <dubbo:application name="pay-service"   />
-    <!-- 使用multicast广播注册中心暴露服务地址 -->
-    <dubbo:registry address="N/A"/>
-    <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20880" />
-    <!-- 声明需要暴露的服务接口 -->
-    <dubbo:reference interface="com.mxh.dubbo.api.OrderService" id = "orderService"  url="dubbo://localhost:20880/com.mxh.dubbo.api.OrderService"  />
+    <dubbo:application name="pay-service" owner="maxiaohong"  />
 
+    <!-- 使用multicast广播注册中心暴露服务地址 -->
+    <dubbo:registry address="N/A" />
+
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20882" />
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.mxh.dubbo.api.PayService" ref="payService" />
+
+    <!-- 和本地bean一样实现服务 -->
+    <bean id="payService" class="com.mxh.dubbo.impl.PayServiceImpl" />
 </beans>

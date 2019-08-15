@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43ad3dcf-0574-4324-a674-04e1d2ee99ea" name="Default" comment="">
+    <list default="true" id="745df9bc-7e54-4508-bfc0-6c65da701066" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../order-service/order-provider/src/main/java/com/mxh/dubbo/AppConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-service/order-provider/src/main/resources/order-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-service/order-provider/target/classes/com/mxh/dubbo/AppConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order-service/order-provider/target/classes/order-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/order-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/order-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/order-provider/src/main/java/com/mxh/dubbo/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/order-provider/src/main/java/com/mxh/dubbo/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/order-provider/src/main/resources/META-INF/spring/order-provicer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/order-provider/src/main/resources/META-INF/spring/order-provicer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../orderservice/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../orderservice/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../orderservice/.idea/misc.xml" beforeDir="false" />
@@ -14,9 +23,18 @@
       <change beforePath="$PROJECT_DIR$/../orderservice/target/classes/com/dubbo/mxh/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../orderservice/target/classes/consumer.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../orderservice/target/test-classes/com/dubbo/mxh/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mxh/dubbo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mxh/dubbo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mxh/dubbo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mxh/dubbo/AppTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-api/pay-api.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payservice/pay-api/src/main/java/com/mxh/dubbo/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-api/src/main/java/com/mxh/dubbo/api/ProjectService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-api/src/main/java/com/mxh/dubbo/api/SuitService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-api/src/test/java/com/mxh/dubbo/AppTest.java" beforeDir="false" />
@@ -39,11 +57,11 @@
       <change beforePath="$PROJECT_DIR$/../payservice/pay-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pay-provider/target/test-classes/com/mxh/dubbo/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payservice/payservice.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../payservice/pom.xml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/pay-api/target/" />
+    <ignored path="$PROJECT_DIR$/pay-provider/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,31 +74,103 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="-150">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="39" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="44" column="21" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pay-api/src/main/java/com/mxh/dubbo/api/PayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/impl/PayServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pay-provicer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-provider/src/main/resources/META-INF/spring/pay-provicer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mxh/dubbo/App.java">
+        <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consumer.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/consumer.xml">
+      <file leaf-file-name="pay-consumer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-provider/src/main/resources/pay-consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
+            <state relative-caret-position="452">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/AppConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -95,9 +185,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mxh/dubbo/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-api/src/main/java/com/mxh/dubbo/api/PayService.java" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/impl/PayServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/resources/META-INF/spring/pay-provicer.xml" />
+        <option value="$PROJECT_DIR$/pay-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/App.java" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/resources/META-INF/spring/pay-consumer.xml" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/AppConsumer.java" />
+        <option value="$PROJECT_DIR$/pay-provider/src/main/resources/pay-consumer.xml" />
       </list>
     </option>
   </component>
@@ -131,7 +228,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="pay-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -165,28 +262,116 @@
             <path>
               <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mxh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mxh" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mxh" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pay-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pay-service" type="462c0819:PsiDirectoryNode" />
+              <item name="pay-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +383,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mxh-space3\pay-service\pay-provider\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxh-space3\pay-service\pay-provider\src\main\resources\META-INF\spring" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,10 +405,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mxh.dubbo.App" />
-      <module name="pay-service" />
+      <module name="pay-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mxh.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AppConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mxh.dubbo.AppConsumer" />
+      <module name="pay-provider" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -265,8 +469,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.AppConsumer" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppConsumer" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -276,33 +485,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43ad3dcf-0574-4324-a674-04e1d2ee99ea" name="Default" comment="" />
-      <created>1565689662096</created>
+      <changelist id="745df9bc-7e54-4508-bfc0-6c65da701066" name="Default" comment="" />
+      <created>1565853063733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565689662096</updated>
-      <workItem from="1565689663838" duration="1633000" />
+      <updated>1565853063733</updated>
+      <workItem from="1565853065445" duration="2279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1633000" />
+    <option name="totallyTimeSpent" value="2279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.24209379" />
+      <window_info anchor="bottom" id="Messages" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.20735608" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.118336886" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28244275" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -313,8 +521,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,24 +538,77 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mxh/dubbo/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="-150">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/consumer.xml">
+    <entry file="file://$PROJECT_DIR$/pay-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="132" selection-start-line="16" selection-start-column="132" selection-end-line="16" selection-end-column="132" />
+        <state relative-caret-position="210">
+          <caret line="7" column="39" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/src/main/resources/META-INF/spring/pay-provicer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/src/main/resources/pay-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/AppConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-provider/src/main/java/com/mxh/dubbo/impl/PayServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay-api/src/main/java/com/mxh/dubbo/api/PayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
