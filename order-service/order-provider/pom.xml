@@ -36,6 +36,10 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
         </dependency>
+        <dependency>
+            <artifactId>pay-api</artifactId>
+            <groupId>com.mxh.dubbo</groupId>
+        </dependency>
     </dependencies>
 
     <build>
