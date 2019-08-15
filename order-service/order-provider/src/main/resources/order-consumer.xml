@@ -16,6 +16,6 @@
     <!-- 用dubbo协议在20882端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20882" />
 
-    <dubbo:reference id="payService" check="true" interface="com.mxh.dubbo.api.PayService" url="dubbo://localhost:20882/com.mxh.dubbo.api.PayService"></dubbo:reference>
+    <dubbo:reference   id="payService"  interface="com.mxh.dubbo.api.PayService" url="dubbo://localhost:20882/com.mxh.dubbo.api.PayService"></dubbo:reference>
 
 </beans>
