@@ -1,0 +1,9 @@
+springboot整合dubbo的服务端
+
+1、需要的jar包：org.apache.dubbo、dubbo-spring-boot-starter  ，分别为 ：dubbo本身的jar包、dubbo集成springboot的jar包。
+2、为了演示，采用直连提供者，需要注意以下事项：
+   a.  如果直连提供者，则配置文件中不需要注册中心地址，只需要dubbo.registry.address=N/A
+3、关于项目结构
+   springboot-order-services:  dubbo服务端项目
+      order-api :接口项目
+      order-provider:与springboot整合的提供者项目
